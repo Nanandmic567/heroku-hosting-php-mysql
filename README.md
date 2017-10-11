@@ -25,7 +25,7 @@ If you dont want your web app to be automatically deployed you can click the "De
 Goto your apps home page and select the "Resources" tab, then in the Add-ons search enter "ClearDB MySQL".
 
 Make sure the plan names says "Ignite - Free" and click Provision.
-![Image](https://gyazo.com/31864c93c4e4557972fc9596229b1aa4)
+![Image](https://gyazo.com/31864c93c4e4557972fc9596229b1aa4.png)
 
 When the addon is installed it creates a enviroment varible for us to use in the app.
 
