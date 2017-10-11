@@ -40,13 +40,13 @@ Heres an example. mysql://23423423vsdfsdfsdf:21312321316@eu-cdbr-west-01.cleardb
 [USERNAME]:[PASSWORD]@[HOST]/[DATABASE NAME] use this to get the information you need from **YOUR** connection string.
 
 Click okay and enter your password
-![Image](https://gyazo.com/4a622c1f6cfd105c88c48f733c4e3e93)
+![Image](https://gyazo.com/4a622c1f6cfd105c88c48f733c4e3e93.png)
 
 ## Create the demo table
 
 After you connect to the database using the app for your operating system you need to create a query.
 
 Open the "testdb.sql" and copy the contents into the query editor. Next you will need to change the database name from "testdb" to the database name you got from above. After doing this execute the query.
-![Image](https://gyazo.com/6dbb24d82f718f263e6fe5db8401d648)
+![Image](https://gyazo.com/6dbb24d82f718f263e6fe5db8401d648.png)
 
 To test your site select "open app" on the app home page. Next create a account and then login.
