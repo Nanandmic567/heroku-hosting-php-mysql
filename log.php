@@ -6,7 +6,7 @@ $id = $_REQUEST['id'];
 $text = $_REQUEST['text'];
 $serverName = ($production) ? $url["host"] : "localhost";
 $userName = ($production) ? $url["user"] : "root";
-$userPassword = ($production) ? $url["pass"] : "";
+$userPassword = ($production) ? $url["pass"] : "root";
 $dbName = ($production) ? substr($url["path"], 1) : "log";
 $connect = mysqli_connect($serverName,$userName,$userPassword,$dbName) or die ("connect error".mysqli_error());
 mysqli_set_charset($connect, "utf8");
