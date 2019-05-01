@@ -10,7 +10,7 @@ $userPassword = ($production) ? $url["pass"] : “”;
 $dbName = ($production) ? substr($url["path"], 1) : “log”;
 $connect = mysqli_connect($serverName,$userName,$userPassword,$dbName);
 mysqli_set_charset($connect, “utf8”);
-$query =”INSERT INTO log_chat (user_line_id,TEXT,DATE) VALUE(‘12234’,’mickey’,NOW())”;
+$query ="INSERT INTO log_chat (user_line_id,TEXT,DATE) VALUE(‘12234’,’mickey’,NOW())";
 $resource = mysqli_query($connect,$query) or die (“error”.mysqli_error());
 ?>
 __SILENT___
